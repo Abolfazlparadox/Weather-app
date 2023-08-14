@@ -11,7 +11,7 @@ body{
 .card {
     width: 90%;
     max-width: 450px;
-    background: linear-gradient(135deg,#5c01ad,#000000);
+    background: linear-gradient(135deg,#06142e,#1b3358,#473e66,#bd83b8,#f5d7db,#f1916d);
     color: #fff; 
     margin: 100px auto 0 ;
     padding: 40px 35px ;
@@ -39,7 +39,7 @@ body{
 .serch button{
     border: 0;
     outline: 0;
-    background: #ebfffc;
+    background: linear-gradient(135deg,#473e66,#bd83b8,#f5d7db,#f1916d);
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -73,15 +73,16 @@ body{
     display: flex;
     align-items: center;
     text-align: left;
+    color: #06142e;
 }
 .col img{
     width: 55px;
     margin-right: 10px;
-    background-color: #ffffff63;
 }
 .humidity,.Wind{
     font-size: 20px;
     margin-top: -6px;
+    color: #06142e;
 }
 .weather{
     display: none;
